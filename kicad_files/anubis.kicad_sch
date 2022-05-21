@@ -7,7 +7,7 @@
   (title_block
     (title "Anubis PCB schematic")
     (date "2022-05-21")
-    (rev "v1.0.2")
+    (rev "v1.0.3")
     (company "Designed by Gondolindrim")
     (comment 1 "For the AcheronProject")
   )
@@ -9094,7 +9094,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 781.685 385.445 0) (unit 1)
     (in_bom no) (on_board yes)
     (uuid 3a146254-7ff6-44fa-bbbe-d41651ed1984)
-    (property "Reference" "J3" (id 0) (at 782.955 376.555 0))
+    (property "Reference" "X3" (id 0) (at 782.955 376.555 0))
     (property "Value" "Conn_01x06" (id 1) (at 782.955 379.095 0))
     (property "Footprint" "acheron_Connectors:PinHeader_2x3_P2.54mm_Vertical" (id 2) (at 781.685 385.445 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -10445,7 +10445,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 748.03 424.815 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 58373f7b-351f-4f64-a016-2ab8f90c3f61)
     (property "Reference" "X2" (id 0) (at 749.3 411.48 0))
     (property "Value" "EXTRA_PINS" (id 1) (at 749.3 414.02 0))
@@ -16657,9 +16657,6 @@
     (path "/fbf8f973-b9ff-4394-85f3-62ed897bb422"
       (reference "J2") (unit 1) (value "A1001WR-S-04P") (footprint "acheron_Connectors:SM04B-SRSS-TB(LF)(SN)_mounting-reliefs")
     )
-    (path "/3a146254-7ff6-44fa-bbbe-d41651ed1984"
-      (reference "J3") (unit 1) (value "Conn_01x06") (footprint "acheron_Connectors:PinHeader_2x3_P2.54mm_Vertical")
-    )
     (path "/576dd885-8cfb-4ef1-86b0-b4232178f99d"
       (reference "LED1") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
@@ -17097,6 +17094,9 @@
     )
     (path "/58373f7b-351f-4f64-a016-2ab8f90c3f61"
       (reference "X2") (unit 1) (value "EXTRA_PINS") (footprint "acheron_Connectors:PinHeader_2x6_P2.54mm_Vertical")
+    )
+    (path "/3a146254-7ff6-44fa-bbbe-d41651ed1984"
+      (reference "X3") (unit 1) (value "Conn_01x06") (footprint "acheron_Connectors:PinHeader_2x3_P2.54mm_Vertical")
     )
     (path "/4c975a56-2d4a-4f14-81bb-55c4a4e1277f"
       (reference "Y1") (unit 1) (value "TAXM8M4RFDCET2T") (footprint "acheron_Components:Crystal_SMD_3225-4Pin_3.2x2.5mm")
