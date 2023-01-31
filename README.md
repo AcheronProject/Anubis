@@ -26,3 +26,7 @@ In summary:
     - For WT80 populate J1, R16, R17 and leave J1 un-populated.
 
 As of January 31, 2023, two boards using the WT80 were tested with Anubis and are confirmed to work: the Ecliptica by Dark and Keycult's No. 2 TKL .
+
+## Licensing
+
+Anubis is released under the [Acheron Open Hardware License V1.4](http://acheronproject.com/AOHL14/).
